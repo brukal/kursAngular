@@ -17,5 +17,9 @@ export class ShopingListComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onIngriedentAdded(ingriedent: Ingridient){
+    console.log('jestem');
+    this.ingridients.push(ingriedent);
 
+  }
 }
